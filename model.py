@@ -9,6 +9,7 @@ def plot_predictions(train_data, train_labels,  test_data, test_labels,  predict
   """
   Plots training data, test data and compares predictions.
   """
+  
   plt.figure(figsize=(6, 5))
   # Plot training data in blue
   plt.scatter(train_data, train_labels, c="b", label="Training data")
